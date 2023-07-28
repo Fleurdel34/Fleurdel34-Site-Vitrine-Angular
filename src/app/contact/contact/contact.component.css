@@ -1,0 +1,60 @@
+
+.page {
+  background-color: lightgrey;
+  height: 40vh;
+  width: 95%;
+} 
+
+h1 {
+  text-align: center;
+  font-size: 5vh;
+}
+td {
+  font-size: 3.5vh;
+}
+.contenu {
+  margin-top: 4vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin-top: 4vh;
+  width: 20vw;
+  height: 8vh;
+  font-size: 4vh;
+}
+/* Nouvelles règles si la fenêtre fait au plus 1920px de large */
+@media screen and (max-width: 1920px) {
+}
+/* Nouvelles règles si la fenêtre fait au plus 1200px de large */
+@media screen and (max-width: 1200px) {
+}
+/* Nouvelles règles si la fenêtre fait au plus 992px de large */
+@media screen and (max-width: 992px) {
+}
+/* Nouvelles règles si la fenêtre fait au plus 768px de large */
+@media screen and (max-width: 768px) {
+  
+}
+/* Nouvelles règles si la fenêtre fait au plus 360px de large */
+@media screen and (orientation: portrait) {
+  .page {
+    width: 100vw;
+    height: 76vh;
+  }
+  h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+  }
+  td {
+    font-size: 12px;
+  }
+  button {
+    font-size: 18px;
+    margin-top: 50px;
+    width: 40vw;
+  }
+}

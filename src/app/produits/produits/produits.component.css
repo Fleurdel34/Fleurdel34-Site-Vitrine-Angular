@@ -1,0 +1,109 @@
+
+.page_produits{
+    background-color: #d9d9d9;
+    font-size: medium;
+
+}
+.produits{
+    display: flex;
+    justify-content: space-between;
+   
+}
+h1{
+   text-align: center;
+   color: rgb(0, 0, 0);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    
+
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 150px;
+    height: 130px;
+}
+
+
+nav ul{
+    display: flex;
+
+}
+ul{
+    list-style: none;
+    
+}
+
+li{
+        
+    display: inline-block;
+    list-style: none;
+    justify-content: space-between;
+    margin: 20px 20px 20px;
+
+    
+
+}
+a{
+    display: inline-block;
+    color:  black;
+    background:    #9AC5F4;  /* #146aeb;*/
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    text-decoration: none;
+    
+
+}
+.btn:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.prx{
+    
+    color: red; 
+    font-weight: 10px;
+    padding-left:75px; 
+    padding-right: 125px;
+    padding-top: 20px;
+    font-size: 1.6em;
+    /*background-color:#d9d9d9 /*rgba(255, 255, 255, 0.785);*/
+   
+    
+}
+
+.prodimg{
+    border: solid 1px;
+    height: 250px;
+    width: 250px;
+
+
+
+}
+.produit{
+    margin: 70px; ;
+    
+ 
+}
+fieldset{
+    height: 320px;
+    width: 255px;
+
+}
+legend{
+    text-align: center;
+}
+.items3{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.items4{
+    
+    margin-bottom: 80px;
+}

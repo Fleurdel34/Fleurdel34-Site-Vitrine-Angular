@@ -1,0 +1,39 @@
+/* Style pour le formulaire */
+.page {
+  background-color: lightgrey;
+  width: 100vw;
+  height: 50vh;
+}
+h1 {
+  text-align: center;
+}
+form {
+  background-color: lightgrey;
+  max-width: 40vw;
+  margin: 1vh auto;
+  font-size: 3vh;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 1vh;
+}
+
+input[type="submit"] {
+  width: auto;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  font-size: smaller;
+  
+}
+/* Nouvelles règles si la fenêtre est en orientation portrait */
+@media screen and (orientation: portrait) {}
+button {
+  font-size: 3vw;
+}
